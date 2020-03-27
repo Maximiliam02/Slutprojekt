@@ -1,2 +1,41 @@
-.Huvudmeny { background-image:url("https://cdn.shopify.com/s/files/1/1297/3303/products/italy-genuine-leather-chess-board-21184927873_1024x1024.jpg?v=1575932085")}
+/*Nav nar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
 
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+.Header {
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.Meny {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.Main {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
