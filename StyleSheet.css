@@ -1,41 +1,30 @@
-/*Nav nar*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+body{
+	text-align: center;
+	font-size: 3vw;
+	
+}
+nav{
+	background-color: grey;
+	overflow:hidden;
+	height: 15vh;
+	
 }
 
 li a {
   display: block;
-  color: #000;
+  color: yellow;
   padding: 8px 16px;
   text-decoration: none;
 }
-
-/* Change the link color on hover */
 li a:hover {
   background-color: #555;
   color: white;
 }
-
-
-.Header {
-  border: 1px solid red;
-  padding: 15px;
-}
-
-.Meny {
-  width: 25%;
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-
-.Main {
-  width: 75%;
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
+li {
+	float: left;
+	display: inline;
+	text-align: center;
+	padding: 5vh
+	font-size: 3vh;
+	color: red;
 }
