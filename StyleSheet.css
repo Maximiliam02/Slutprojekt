@@ -1,26 +1,31 @@
-<!DOCTYPE html>
-<html lang="sv">
-  <head>
-     <meta charset="utf-8">
-     <link href ="StyleSheet.css" rel="Stylesheet">
-     <title>Index</title>
-  </head>
-  
-  <body class="Index">
-      
-     <div>
-	   <nav>
-           <ul>			 
-             <li><a href="">Sida1</a><li>
-             <li> <a href="">Sida2</a></li>
-             <li><a href="">Sida3</a></li>
-		     <li><a href="">Sida4</a></li>
-		   </ul>
-	   </nav>
-     </div>
-	 <h1>Schack<h1>
+.Index{
+	text-align: center;
+	font-size: 3vw;
+	background-image: url("Schack.jpg");
+}
+nav{
+	background-color: grey;
+	overflow:hidden;
+	height: 15vh;
+	width: 100vw;
+	
+}
 
+li a {
+  display: block;
+  color: yellow;
+  padding: 1vh 10vw;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+li {
+	float: left;
+	display: inline;
+	text-align: center;
+	font-size: 3vh;
+	color: red;
+}
 
-
-  </body>
-</html>
