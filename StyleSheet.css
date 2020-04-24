@@ -3,6 +3,9 @@ nav{
 	overflow:hidden;
 	height: 15vh;
 	width: 100vw;
+	justify-content: center;
+
+
 	
 }
 
@@ -27,7 +30,24 @@ li {
 }
 
 p {
-	font-size: 25px;
+	font-size: 3vw;
+	margin: auto;
+}
+table, td {
+	font-size: 1vw;
+	width:45vw;
+	margin: auto;
+	border: 2px black solid;
+	margin-top: 5vh;
+	border-collapse:collapse;
+}
+td:nth-child(1){
+    text-align:center;
+	font-weight: bold;
+}
+
+td > img {
+	width:50%;
 }
 
 
@@ -47,11 +67,12 @@ p {
   
 }
 
-/*Cssen för "Hur Man Spelar" sidan*/
-.Lokal {
+/*Cssen för alla globala sidor - index*/
+.Global {
 	background-image:url("HurManSpelar.jpg");
 	background-size: 100vw 100vh;
-	background-repeat: no-repeat
+	font-size: 3vw;
+    text-align: center;
 }
 .Alternativ1 {
   width: 20vw;
@@ -62,9 +83,7 @@ p {
   margin-left: 7vw;
   margin-top: 20vh;
   display: block;
-  text-align: center;
-  font-size: 3vw;
-  color: black
+  color: black;
 }
   .Alternativ2 {
   width: 20vw;
@@ -74,7 +93,25 @@ p {
    float: right;
   margin-right: 7vw;
   margin-top: 20vh;
-  text-align: center;
-  font-size: 3vw;
-  color: black
+  color: black;
   }
+  
+  /*Cssen för alla lokala sidor*/
+ .Lokal{
+	 background-color: #F7DAA5;
+	 font-size: 3vw;
+ }
+.Right{
+  float: left;
+  height: 100vh;
+  width: 50vw;
+}
+
+.Left {
+  height: 100vh;
+}
+.img{
+	width:50vw;
+	height:90vh;
+}
+
