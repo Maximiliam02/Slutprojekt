@@ -12,7 +12,7 @@ nav{
 li a {
   display: block;
   color: #F5E6BF;
-  padding: 1vh 10vw;
+  padding: 1vh 6vw;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ li {
 }
 
 p {
-	font-size: 3vw;
+	font-size: 2vw;
 	margin: auto;
 }
 table, td {
@@ -114,4 +114,16 @@ td > img {
 	width:50vw;
 	height:90vh;
 }
+
+iframe {
+	width: 45vw;
+	height: 45vh;
+	margin-left: 2vw;
+}
+
+label, input {
+	font-size: 4vh;
+	
+}
+
 
