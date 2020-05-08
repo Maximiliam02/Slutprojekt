@@ -1,51 +1,75 @@
+/*Cssen för hur navigationen/globala menyn ser ut*/
 nav{
+	/*Gör bakgrundsfärgen grå*/
 	background-color: grey;
+	/*Överflödet är klippt och resten av innehållet kommer att vara osynligt*/
 	overflow:hidden;
+	/*Navigationens höjd*/
 	height: 15vh;
+	/*Navigationens bredd*/
 	width: 100vw;
+	/*Centrerar navigationen*/
 	justify-content: center;
-
-
-	
 }
-
+/*hur de olika alternativens ser ut/delas upp*/
 li a {
+  /*Gör de olika alternativen till blocks*/
   display: block;
+  /*Ändrar navigationens färg*/
   color: #F5E6BF;
+  /*Ändrar sorleken*/
   padding: 1vh 6vw;
+  /*Gör så att titlarna inte är understrukna*/
   text-decoration: none;
 }
-
+/*Cssen för när man håller över navigations titlarna*/
 li a:hover {
+  /*Ändrar färgen när man håller över*/
   background-color: #555;
+  /*Ändrar text färgen*/
   color: white;
 }
-
+/*Cssen för listor/nav listan*/
 li {
+	/*Gör så de åker vänster och radar upp sig*/
 	float: left;
+	/*tar bort punkterna*/
 	display: inline;
+	/*Texten centreras i blocket*/
 	text-align: center;
+	/*Text storlek*/
 	font-size: 3vh;
-	color: red;
 }
-
+/*All text inom P taggarna*/
 p {
+	/*All text inom P taggarnas storlek*/
 	font-size: 2vw;
+	/*Centrar texten*/
 	margin: auto;
 }
+/*Tabellernas css*/
 table, td {
+	/*texten storklek*/
 	font-size: 1vw;
+	/*tabellens storlek*/
 	width:45vw;
+	/*Centrerar*/
 	margin: auto;
+	/*Skapar en border som är svarg 2 pixlar*/
 	border: 2px black solid;
+	/*gör så att den är lite ifrån toppen*/
 	margin-top: 5vh;
+	/*gör så att det bara blir en linje mellan cellerna*/
 	border-collapse:collapse;
 }
+/*Varje första td inom tr'en*/
 td:nth-child(1){
+	/*Centrerar*/
     text-align:center;
+	/*Gör texten bold/tjock*/
 	font-weight: bold;
 }
-
+/*Gör så att alla img's inom td's är 50%*/
 td > img {
 	width:50%;
 }
@@ -56,6 +80,7 @@ td > img {
 .Index{
 	text-align: center;
 	font-size: 3vw;
+	/*Anger background bild*/
 	background-image: url("Schack.jpg");
 }
 .box {
@@ -63,6 +88,7 @@ td > img {
   border: 2vh solid black;
   padding: 10vh;
   margin: auto;
+  /*Anger bagkrundsfärg*/
   background-color:#F7DAA5;
   
 }
@@ -70,6 +96,7 @@ td > img {
 /*Cssen för alla globala sidor - index*/
 .Global {
 	background-image:url("HurManSpelar.jpg");
+	/*Ändrar storleken på bakgrunds bilden*/
 	background-size: 100vw 100vh;
 	font-size: 3vw;
     text-align: center;
@@ -80,9 +107,12 @@ td > img {
   padding: 10vh;
   background-color:#F7DAA5;
   float: left;
+  /*Ändrar anståndet till vänster*/
   margin-left: 7vw;
+  /*Ändrar avståndet till höger*/
   margin-top: 20vh;
   display: block;
+  /*text färg*/
   color: black;
 }
   .Alternativ2 {
@@ -99,11 +129,14 @@ td > img {
   /*Cssen för alla lokala sidor*/
  .Lokal{
 	 background-color: #F7DAA5;
+	 /*text storlek*/
 	 font-size: 3vw;
  }
 .Right{
   float: left;
+  /*Höjd*/
   height: 100vh;
+  /*Bredd*/
   width: 50vw;
 }
 
@@ -123,7 +156,6 @@ iframe {
 
 label, input {
 	font-size: 4vh;
-	
 }
 
 

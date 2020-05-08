@@ -5,9 +5,10 @@
      <link href ="StyleSheet.css" rel="Stylesheet">
      <title>Luffarschack</title>
   </head>
-    <body class="Lokal">
   
-  <div>
+  <body class="Lokal">
+  
+     <div>
 	   <nav>
            <ul>			 
              <li><a href="Websida.html">Hemsida</a><li>
@@ -19,19 +20,20 @@
      </div>
 	 
 	 <div class="Right">
-          <img class="img" src="Luffarschack.jpg" alt="">
-
-       </div>
+         <img class="img" src="Luffarschack.jpg" alt="">
+     </div>
 	   
-       <div class="Left">
+     <div class="Left">
 	     <p>Ansökan till Max egna programmerings kurs!<p>
-	   
-	   
+		  <!--Formulär-->
           <form>
+		    <!--Label är vad som står-->
 			<label for="Förnamn">Förnamn</label><br>
+			<!--Input tillåter användaren att skriva, ID är var användarens svar sparas och value är tomt och tillåter användaren att fylla i det-->
 			<input type="text" id="Förnamn" name="Förnamn" value=""><br>
 			<label for="Efternamn">Efternamn</label><br>
-			<input type="text" id="Efternamn" name="Efternamn" value=""><br>		
+			<input type="text" id="Efternamn" name="Efternamn" value=""><br>
+            <!--Radio gör så att det blir en ifylldbar punkt istället-->			
 			<input type="radio" id="Man" name="Kön" value="Man">
 			<label for="Man">Man</label><br>
 			<input type="radio" id="Kvinna" name="Kön" value="Kvinna">
@@ -39,12 +41,11 @@
 			<input type="radio" id="Annat" name="Kön" value="Annat">
 			<label for="Annat">Annat</label><br><br>		
 			<input type="Submit" value="Accept" formaction="Websida.html">
-			<input type="Submit" value="Cancel" formaction="Websida.html">
-		
-			
-		</form>
+			<input type="Submit" value="Cancel" formaction="Websida.html">	
+          <!--Avslutar formulär-->			
+	      </form>
 		  <a class="Alternativ2" href="Kinaschack.html">Kinaschack</a>
-        </div>
-  
-  
+     </div>
   </body>
+</html>
+  
