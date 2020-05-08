@@ -73,9 +73,11 @@ td:nth-child(1){
 td > img {
 	width:50%;
 }
-
+/*Fixar footer*/
 footer{
+	/*Den är alltid på samma ställe*/
 	position: fixed;
+	/*Alltid längst ner*/
 	bottom: 0;
 }
 
