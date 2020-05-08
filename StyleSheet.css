@@ -74,7 +74,14 @@ td > img {
 	width:50%;
 }
 
+footer{
+	position: fixed;
+	bottom: 0;
+}
 
+.P{
+	font-size: 2vh;
+}
 
 /*Cssen för "index" sidan*/
 .Index{
