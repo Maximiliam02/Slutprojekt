@@ -8,7 +8,7 @@
   
   <body class="Lokal">
   
-     <div>
+     <header>
 	   <nav>
            <ul>			 
              <li><a href="Index.html">Hemsida</a><li>
@@ -17,35 +17,37 @@
 		     <li><a href="Världsmästerskapen.html">Världsmästare</a></li>
 		   </ul>
 	   </nav>
-     </div>
+     </header>
 	 
 	 <div class="Right">
          <img class="img" src="Luffarschack.jpg" alt="">
      </div>
 	   
-     <div class="Left">
-	     <p>Ansökan till Max egna programmerings kurs!<p>
-		  <!--Formulär-->
-          <form>
-		    <!--Label är vad som står-->
-			<label for="Förnamn">Förnamn</label><br>
-			<!--Input tillåter användaren att skriva, ID är var användarens svar sparas och value är tomt och tillåter användaren att fylla i det-->
-			<input type="text" id="Förnamn" name="Förnamn" value=""><br>
-			<label for="Efternamn">Efternamn</label><br>
-			<input type="text" id="Efternamn" name="Efternamn" value=""><br>
-            <!--Radio gör så att det blir en ifylldbar punkt istället-->			
-			<input type="radio" id="Man" name="Kön" value="Man">
-			<label for="Man">Man</label><br>
-			<input type="radio" id="Kvinna" name="Kön" value="Kvinna">
+     <main class="Left">
+	     <h1>Ansökan till Max egna programmerings kurs!</h1>		  
+          <form action="" method="POST">	<!--Formulär-->
+		  
+		    <label for="Förnamn">Förnamn</label><br>	<!--Label är vad som står-->
+				<input type="text" id="Förnamn" name="Förnamn" value=""><br>	<!--Input tillåter användaren att skriva, ID är var användarens svar sparas och value är tomt och tillåter användaren att fylla i det-->
+				
+			<label for="Efternamn">Efternamn</label><br>	
+				<input type="text" id="Efternamn" name="Efternamn" value=""><br>
+				
+           	<label for="Man">Man</label><br>	
+				<input type="radio" id="Man" name="Kön" value="Man"> 	<!--Radio gör så att det blir en ifylldbar punkt istället-->
+				
 			<label for="Kvinna">Kvinna</label><br>
-			<input type="radio" id="Annat" name="Kön" value="Annat">
-			<label for="Annat">Annat</label><br><br>		
-			<input type="Submit" value="Accept" formaction="Websida.html">
-			<input type="Submit" value="Cancel" formaction="Websida.html">	
-          <!--Avslutar formulär-->			
-	      </form>
+				<input type="radio" id="Kvinna" name="Kön" value="Kvinna">
+				
+			<label for="Annat">Annat</label><br><br>
+				<input type="radio" id="Annat" name="Kön" value="Annat">
+			
+			<input type="Submit" value="Accept">
+			<input type="Submit" value="Cancel">	
+          
+	      </form>	<!--Avslutar formulär-->			
 		  <a class="Alternativ2" href="Kinaschack.html">Kinaschack</a>
-     </div>
+     </main>
 	 <footer>
        <p class="P">Posted by: Maximiliam G Schylander</p>
        <p class="P">Contact information: <a href="mailto:MaximiliamGSchylander@gmail.com">MaximiliamGSchylander@gmail.com</a></p>
